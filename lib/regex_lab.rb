@@ -1,6 +1,7 @@
 require 'pry'
 
 def starts_with_a_vowel?(word)
+  p word
   word.scan(/([aeiouAEIOU])\w+/) ? true : false
 end
 
