@@ -2,6 +2,7 @@ require 'pry'
 
 def starts_with_a_vowel?(word)
   word = word.match(/[aeiouAEIOU]\w+/).to_a
+  binding.pry
   if word.length == 0
     return false
   else
